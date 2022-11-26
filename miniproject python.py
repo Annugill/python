@@ -9,7 +9,7 @@ Input date range is in the format dd/mm/yy.
 '''
 print(information.__doc__)
 
-first_date=input("Enter the first date: ")
+first_date=input("Enter the 1st date: ")
 first_date1=first_date.split("/")
 start=int(first_date1[2])
 last_date=input("Enter the last date: ")
